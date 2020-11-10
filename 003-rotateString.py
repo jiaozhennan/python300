@@ -1,4 +1,7 @@
 class Solution:
+    """
+    旋转字符串
+    """
     def rotateString(self, s, offset):
         if len(s) > 0:
             offset = offset % len(s)

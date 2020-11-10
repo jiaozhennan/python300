@@ -1,4 +1,7 @@
 class Solution:
+    """
+    下一个更大的数
+    """
     def nextGreaterElement(self, nums1, nums2):
         answer = {}
         stack = []

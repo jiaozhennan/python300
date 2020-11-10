@@ -1,4 +1,8 @@
 class Soloution:
+    """
+    字符串中的单词数
+    """
+
     def countSegments(self, s):
         res = 0
         for i in range(len(s)):

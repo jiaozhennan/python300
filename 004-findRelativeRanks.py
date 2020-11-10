@@ -1,4 +1,7 @@
 class Solution:
+    """
+    相对排名
+    """
     def findRelativeRanks(self, nums):
         score = {}
         for i in range(len(nums)):

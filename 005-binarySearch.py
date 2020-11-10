@@ -1,4 +1,7 @@
 class Solution:
+    """
+    二分查找
+    """
     def binarySearch(self, nums, target):
         return self.search(nums, 0, len(nums) - 1, target)
     def search(self, nums, start, end, target):

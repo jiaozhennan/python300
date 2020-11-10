@@ -1,4 +1,7 @@
 class Solution:
+    """
+    反转一个三位数
+    """
     def reverseIntrger(self, number):
         h = int(number/100)
         t = int(number % 100/10)

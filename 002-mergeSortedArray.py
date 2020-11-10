@@ -1,4 +1,7 @@
 class Solution:
+    """
+    合并排序数组
+    """
     def mergeSortedArray(self, A, B):
         i, j = 0, 0
         C = []
